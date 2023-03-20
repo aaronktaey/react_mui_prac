@@ -1,11 +1,14 @@
+import ComboBox from "./ComboBox";
+import Navigation from "./Navigation";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       </header>
-      <body>
         Hello, MUI.
-      </body>
+        <ComboBox/>
+        <Navigation></Navigation>
     </div>
   );
 }
